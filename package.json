@@ -1,0 +1,23 @@
+{
+  "name": "wear-glove",
+  "version": "1.0.0",
+  "description": "你只需要一双手套而已",
+  "main": "src/index.js",
+  "scripts": {
+    "demo": "node ./demo/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/daGaiGuanYu/glove.git"
+  },
+  "keywords": [
+    "glove",
+    "aop"
+  ],
+  "author": "gy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/daGaiGuanYu/glove/issues"
+  },
+  "homepage": "https://github.com/daGaiGuanYu/glove#readme"
+}
