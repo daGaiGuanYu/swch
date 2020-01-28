@@ -1,4 +1,7 @@
 module.exports = function({ fn, gloveList, ...properties }){
+  if(!gloveList)
+    gloveList = []
+  
   for(let i=gloveList.length-1; i>=0; i--)
     fn = wear(fn, gloveList[i])
   

@@ -1,6 +1,6 @@
 {
   "name": "wear-glove",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "你只需要一双手套而已",
   "main": "src/index.js",
   "scripts": {
