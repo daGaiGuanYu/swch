@@ -14,6 +14,6 @@ function b(fn){ // 这是一个手套，fn 是执行任务的函数
   console.log('之后做一些事情')
 }
 
-a = wear(a, b) // 给 a 戴手套
+a = wear(b, a) // 给 a 戴手套
 
 a()

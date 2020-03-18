@@ -1,10 +1,12 @@
 {
   "name": "wear-glove",
-  "version": "1.1.1",
+  "version": "2.0.0",
   "description": "你只需要一双手套而已",
   "main": "src/index.js",
   "scripts": {
-    "demo": "node ./demo/demo1.js"
+    "demo": "node ./demo/demo1.js",
+    "demo2": "node ./demo/demo2.js",
+    "demo3": "node ./demo/demo3.js"
   },
   "repository": {
     "type": "git",

@@ -1,3 +1,5 @@
+console.log('本案例展示“使用glove修改参数值和返回值”')
+
 const wear = require('../src/index')
 
 function a(num){ // 执行任务的函数
@@ -17,6 +19,6 @@ function b(fn, num){ // 这是一个手套，fn 是执行任务的函数
   return true
 }
 
-a = wear(a, b) // 给 a 戴手套
+a = wear(b, a) // 给 a 戴手套
 
 console.log(a(1))
