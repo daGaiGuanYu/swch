@@ -5,11 +5,15 @@
 ```
 其实这两个词更能描述这个仓库的用途
 
-## 用途
+# Proxy
+当前版本对 this……  
+下版本用 Proxy 重写
+
+# 用途
 + aop
 + clone 仓库后，运行 ```npm run demo``` 查看效果
 
-## 给手套传入参数
+# 给手套传入参数
 请使用工厂模式
 ``` js
 function factory(args){
