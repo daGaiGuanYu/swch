@@ -1,25 +1,23 @@
 const wear = require('../src/index')
 
-function a(){ // 执行任务的函数
+function fn(){ // 执行任务的函数
   console.log('做一些事情')
 }
-
-a()
+fn()
 
 console.log('----------------') // 分割线
 
-function b(fn){
-  console.log('b前')
+function glove1(fn){
+  console.log('1前')
   fn()
-  console.log('b后')
+  console.log('1后')
 }
 
-function c(fn){
-  console.log('c前')
+function glove2(fn){
+  console.log('2前')
   fn()
-  console.log('c后')
+  console.log('2后')
 }
 
-a = wear(b, c, b, a) // 给 a 戴手套
-
-a()
+fn = wear([glove1, glove2, glove1], fn) // 给 a 戴手套
+fn()

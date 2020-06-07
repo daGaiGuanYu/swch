@@ -1,13 +1,9 @@
 # Glove
-由于 glove 在 npm 上已被注册，所有安装时：
+由于 glove 在 npm 上已被注册，所以安装时：
 ```
   npm install wear-glove
 ```
 其实这两个词更能描述这个仓库的用途
-
-# Proxy
-当前版本对 this……  
-下版本用 Proxy 重写
 
 # 用途
 + aop

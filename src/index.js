@@ -3,13 +3,14 @@
 module.exports = function(list, fn){
   let glove
   while(glove = list.pop())
-    fn = wear(fn, glove)
-  
+    fn = wear(glove, fn)
   return fn
 }
 
-function wear(fn, glove){
-  return function(...args){
-    return glove(fn, ...args)
-  }
+function wear(glove, fn){
+  return new Proxy(fn, {
+    apply(target, that, args){
+      return glove.call(that, target, ...args)
+    }
+  })
 }
