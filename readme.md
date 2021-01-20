@@ -1,24 +1,13 @@
-# Glove
-由于 glove 在 npm 上已被注册，所以安装时：
-```
-  npm install wear-glove
-```
-其实这两个词更能描述这个仓库的用途
+# swch
 
-# 用途
+## 安装
+```
+  npm install swch
+```
+
+## 用途
 + aop
-+ clone 仓库后，运行 ```npm run demo``` 查看效果
 
-# 给手套传入参数
-请使用工厂模式
-``` js
-function factory(args){
-  return async function(fn, ...rawArgs){ // 这个函数才是真正的手套
-    // 前置操作
-    let result = await fn()
-    // 后置操作
-    
-    return result
-  }
-}
-```
+## 用法
+[见 demo](https://github.com/daGaiGuanYu/swch/tree/master/demo)  
+请克隆仓库代码，并运行

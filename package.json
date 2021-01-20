@@ -1,25 +1,27 @@
 {
-  "name": "wear-glove",
-  "version": "3.0.0",
-  "description": "你只需要一双手套而已",
+  "name": "swch",
+  "version": "1.0.0",
+  "description": "三明治，万物皆可夹",
   "main": "src/index.js",
   "scripts": {
-    "demo": "node ./demo/demo1.js",
-    "demo2": "node ./demo/demo2.js",
-    "demo3": "node ./demo/demo3.js"
+    "1": "node ./demo/1.js",
+    "2": "node ./demo/2.js",
+    "3": "node ./demo/3.js",
+    "4": "node ./demo/4.js"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/daGaiGuanYu/glove.git"
   },
   "keywords": [
-    "glove",
-    "aop"
+    "sandwich",
+    "aop",
+    "swch"
   ],
   "author": "gy",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/daGaiGuanYu/glove/issues"
+    "url": "https://github.com/daGaiGuanYu/swch/issues"
   },
-  "homepage": "https://github.com/daGaiGuanYu/glove#readme"
+  "homepage": "https://github.com/daGaiGuanYu/swch#readme"
 }
