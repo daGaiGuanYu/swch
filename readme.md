@@ -1,6 +1,6 @@
 # swch
 
-## 安装
+## 开始安装
 ```
   npm install swch
 ```
